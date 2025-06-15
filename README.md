@@ -1,8 +1,11 @@
 # AWS SigV4
 
 ## 概要
-AWS Signature Version 4 を Go で再実装
-挙動検証として AWS Lambda の `ListFunctions`, `Invoke` を実装
+AWS Signature Version 4 を Go で再実装．
+
+挙動検証として AWS Lambda の `ListFunctions`, `Invoke` を実装．
+
+簡単な解説: https://blog.jsmz.dev/blog/2025/aws-sigv4/
 
 ## 実行
 ```sh
